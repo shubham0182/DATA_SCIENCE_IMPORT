@@ -4,7 +4,7 @@ A comprehensive collection of the most commonly used Python imports for **Data S
 
 ---
 
-# 📦 Basic Python Libraries
+# Basic Python Libraries
 
 ```python
 import os
@@ -24,7 +24,7 @@ warnings.filterwarnings("ignore")
 
 ---
 
-# 🔢 Numerical Computing
+#  Numerical Computing
 
 ```python
 import numpy as np
@@ -32,7 +32,7 @@ import numpy as np
 
 ---
 
-# 📊 Data Manipulation
+#  Data Manipulation
 
 ```python
 import pandas as pd
@@ -40,7 +40,7 @@ import pandas as pd
 
 ---
 
-# 📈 Data Visualization
+#  Data Visualization
 
 ```python
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ import plotly.graph_objects as go
 
 ---
 
-# 🧮 Scientific Computing
+#  Scientific Computing
 
 ```python
 import scipy
@@ -60,7 +60,7 @@ from scipy import stats
 
 ---
 
-# 🤖 Scikit-learn
+#  Scikit-learn
 
 ## Import Library
 
@@ -121,7 +121,7 @@ from sklearn.metrics import (
 
 ---
 
-# 🧠 Machine Learning Algorithms
+#  Machine Learning Algorithms
 
 ## Linear Models
 
@@ -180,7 +180,7 @@ from sklearn.decomposition import PCA
 
 ---
 
-# 🚀 Gradient Boosting Libraries
+#  Gradient Boosting Libraries
 
 ## XGBoost
 
@@ -211,7 +211,7 @@ from catboost import (
 
 ---
 
-# 🧠 Deep Learning
+#  Deep Learning
 
 ## TensorFlow
 
@@ -239,7 +239,7 @@ import torch.optim as optim
 
 ---
 
-# 👁️ Computer Vision
+#  Computer Vision
 
 ```python
 import cv2
@@ -248,7 +248,7 @@ from PIL import Image
 
 ---
 
-# 💬 Natural Language Processing (NLP)
+#  Natural Language Processing (NLP)
 
 ```python
 import nltk
@@ -259,7 +259,7 @@ from transformers import pipeline
 
 ---
 
-# 🗄️ Database Connectivity
+#  Database Connectivity
 
 ```python
 import sqlite3
@@ -269,7 +269,7 @@ import pymongo
 
 ---
 
-# 🌐 Web Scraping
+#  Web Scraping
 
 ```python
 import requests
@@ -281,7 +281,7 @@ from selenium import webdriver
 
 ---
 
-# ⚡ Big Data
+#  Big Data
 
 ```python
 import pyspark
@@ -289,7 +289,7 @@ import pyspark
 
 ---
 
-# 📊 Dashboard Development
+#  Dashboard Development
 
 ```python
 import streamlit as st
@@ -297,7 +297,7 @@ import streamlit as st
 
 ---
 
-# ⚙️ API Development
+#  API Development
 
 ```python
 from fastapi import FastAPI
@@ -305,7 +305,7 @@ from fastapi import FastAPI
 
 ---
 
-# 🔄 MLOps
+#  MLOps
 
 ```python
 import mlflow
@@ -313,7 +313,7 @@ import mlflow
 
 ---
 
-# 🔍 Model Explainability
+#  Model Explainability
 
 ```python
 import shap
@@ -321,7 +321,7 @@ import shap
 
 ---
 
-# 🎯 Hyperparameter Optimization
+#  Hyperparameter Optimization
 
 ```python
 import optuna
@@ -329,7 +329,7 @@ import optuna
 
 ---
 
-# 🤖 Generative AI & LLMs
+#  Generative AI & LLMs
 
 ```python
 from langchain_openai import ChatOpenAI
@@ -341,7 +341,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 ---
 
-# 🛠️ Utility Libraries
+#  Utility Libraries
 
 ```python
 from tqdm import tqdm
@@ -349,7 +349,7 @@ from tqdm import tqdm
 
 ---
 
-# 📚 Recommended Installation
+#  Recommended Installation
 
 ```bash
 pip install numpy pandas matplotlib seaborn scipy scikit-learn \
@@ -361,7 +361,7 @@ mlflow shap optuna langchain langchain-openai tqdm plotly
 
 ---
 
-# 🎯 Industry-Level Learning Order
+#  Industry-Level Learning Order
 
 1. NumPy
 2. Pandas
