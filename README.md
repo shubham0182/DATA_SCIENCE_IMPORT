@@ -1,9 +1,12 @@
-# Data Science Python Imports (Industry-Level)
+# 🐍 Data Science Python Imports (Industry Standard)
+
+A comprehensive collection of the most commonly used Python imports for **Data Science**, **Machine Learning**, **Deep Learning**, **Computer Vision**, **NLP**, **MLOps**, **Big Data**, and **Generative AI**.
+
+---
+
+# 📦 Basic Python Libraries
 
 ```python
-# =====================================================
-# BASIC PYTHON
-# =====================================================
 import os
 import sys
 import math
@@ -17,54 +20,92 @@ import warnings
 from pathlib import Path
 
 warnings.filterwarnings("ignore")
+```
 
-# =====================================================
-# NUMERICAL COMPUTING
-# =====================================================
+---
+
+# 🔢 Numerical Computing
+
+```python
 import numpy as np
+```
 
-# =====================================================
-# DATA MANIPULATION
-# =====================================================
+---
+
+# 📊 Data Manipulation
+
+```python
 import pandas as pd
+```
 
-# =====================================================
-# DATA VISUALIZATION
-# =====================================================
+---
+
+# 📈 Data Visualization
+
+```python
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
+```
 
-# =====================================================
-# SCIENTIFIC COMPUTING
-# =====================================================
+---
+
+# 🧮 Scientific Computing
+
+```python
 import scipy
 from scipy import stats
+```
 
-# =====================================================
-# MACHINE LEARNING
-# =====================================================
+---
+
+# 🤖 Scikit-learn
+
+## Import Library
+
+```python
 import sklearn
+```
 
+### Model Selection
+
+```python
 from sklearn.model_selection import (
     train_test_split,
     GridSearchCV,
     RandomizedSearchCV,
     cross_val_score,
 )
+```
 
+### Data Preprocessing
+
+```python
 from sklearn.preprocessing import (
     StandardScaler,
     MinMaxScaler,
     LabelEncoder,
     OneHotEncoder,
 )
+```
 
+### Missing Value Handling
+
+```python
 from sklearn.impute import SimpleImputer
+```
+
+### Pipelines
+
+```python
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
+```
 
+### Evaluation Metrics
+
+```python
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
@@ -76,51 +117,105 @@ from sklearn.metrics import (
     mean_absolute_error,
     r2_score,
 )
+```
 
-# =====================================================
-# MACHINE LEARNING ALGORITHMS
-# =====================================================
+---
+
+# 🧠 Machine Learning Algorithms
+
+## Linear Models
+
+```python
 from sklearn.linear_model import (
     LinearRegression,
     LogisticRegression,
 )
+```
 
+## Decision Tree
+
+```python
 from sklearn.tree import DecisionTreeClassifier
+```
 
+## Random Forest & Ensemble
+
+```python
 from sklearn.ensemble import (
     RandomForestClassifier,
     RandomForestRegressor,
     GradientBoostingClassifier,
 )
+```
 
+## Support Vector Machine
+
+```python
 from sklearn.svm import SVC
+```
+
+## K-Nearest Neighbors
+
+```python
 from sklearn.neighbors import KNeighborsClassifier
+```
+
+## Naive Bayes
+
+```python
 from sklearn.naive_bayes import GaussianNB
+```
 
+## Clustering
+
+```python
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
+```
 
-# =====================================================
-# BOOSTING LIBRARIES
-# =====================================================
+## Dimensionality Reduction
+
+```python
+from sklearn.decomposition import PCA
+```
+
+---
+
+# 🚀 Gradient Boosting Libraries
+
+## XGBoost
+
+```python
 from xgboost import (
     XGBClassifier,
     XGBRegressor,
 )
+```
 
+## LightGBM
+
+```python
 from lightgbm import (
     LGBMClassifier,
     LGBMRegressor,
 )
+```
 
+## CatBoost
+
+```python
 from catboost import (
     CatBoostClassifier,
     CatBoostRegressor,
 )
+```
 
-# =====================================================
-# DEEP LEARNING
-# =====================================================
+---
+
+# 🧠 Deep Learning
+
+## TensorFlow
+
+```python
 import tensorflow as tf
 
 from tensorflow.keras.models import Sequential
@@ -132,82 +227,164 @@ from tensorflow.keras.layers import (
     MaxPooling2D,
     Flatten,
 )
+```
 
+## PyTorch
+
+```python
 import torch
 import torch.nn as nn
 import torch.optim as optim
+```
 
-# =====================================================
-# COMPUTER VISION
-# =====================================================
+---
+
+# 👁️ Computer Vision
+
+```python
 import cv2
 from PIL import Image
+```
 
-# =====================================================
-# NATURAL LANGUAGE PROCESSING
-# =====================================================
+---
+
+# 💬 Natural Language Processing (NLP)
+
+```python
 import nltk
 import spacy
 
 from transformers import pipeline
+```
 
-# =====================================================
-# DATABASE
-# =====================================================
+---
+
+# 🗄️ Database Connectivity
+
+```python
 import sqlite3
 import sqlalchemy
 import pymongo
+```
 
-# =====================================================
-# WEB SCRAPING
-# =====================================================
+---
+
+# 🌐 Web Scraping
+
+```python
 import requests
 
 from bs4 import BeautifulSoup
 
 from selenium import webdriver
+```
 
-# =====================================================
-# BIG DATA
-# =====================================================
+---
+
+# ⚡ Big Data
+
+```python
 import pyspark
+```
 
-# =====================================================
-# DASHBOARD
-# =====================================================
+---
+
+# 📊 Dashboard Development
+
+```python
 import streamlit as st
+```
 
-# =====================================================
-# FASTAPI
-# =====================================================
+---
+
+# ⚙️ API Development
+
+```python
 from fastapi import FastAPI
+```
 
-# =====================================================
-# MLOPS
-# =====================================================
+---
+
+# 🔄 MLOps
+
+```python
 import mlflow
+```
 
-# =====================================================
-# MODEL EXPLAINABILITY
-# =====================================================
+---
+
+# 🔍 Model Explainability
+
+```python
 import shap
+```
 
-# =====================================================
-# HYPERPARAMETER OPTIMIZATION
-# =====================================================
+---
+
+# 🎯 Hyperparameter Optimization
+
+```python
 import optuna
+```
 
-# =====================================================
-# GENERATIVE AI / LLM
-# =====================================================
+---
+
+# 🤖 Generative AI & LLMs
+
+```python
 from langchain_openai import ChatOpenAI
 
 from langchain_core.prompts import ChatPromptTemplate
 
 from langchain_core.output_parsers import StrOutputParser
+```
 
-# =====================================================
-# UTILITIES
-# =====================================================
+---
+
+# 🛠️ Utility Libraries
+
+```python
 from tqdm import tqdm
 ```
+
+---
+
+# 📚 Recommended Installation
+
+```bash
+pip install numpy pandas matplotlib seaborn scipy scikit-learn \
+xgboost lightgbm catboost tensorflow torch torchvision torchaudio \
+opencv-python pillow nltk spacy transformers sqlalchemy pymongo \
+requests beautifulsoup4 selenium pyspark streamlit fastapi \
+mlflow shap optuna langchain langchain-openai tqdm plotly
+```
+
+---
+
+# 🎯 Industry-Level Learning Order
+
+1. NumPy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+5. Plotly
+6. SciPy
+7. Scikit-learn
+8. XGBoost
+9. LightGBM
+10. CatBoost
+11. TensorFlow
+12. PyTorch
+13. OpenCV
+14. NLTK
+15. spaCy
+16. Transformers
+17. SQLAlchemy
+18. PySpark
+19. FastAPI
+20. Streamlit
+21. MLflow
+22. SHAP
+23. Optuna
+24. LangChain
+25. LlamaIndex
